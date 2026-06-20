@@ -47,4 +47,4 @@ with app.app_context():
     session3.speakers.append(speaker2)
     db.session.commit()
 
-    print("🌱 Database seeded successfully!")
+    print("Database seeded successfully!")
